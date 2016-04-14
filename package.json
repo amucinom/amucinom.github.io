@@ -1,4 +1,4 @@
-{
+    {
     "name": "amucinom.github.io",
     "version": "1.0.0",
     "description": "My personal portfolio site",
@@ -16,7 +16,7 @@
         "type": "git",
         "url": "git+https://github.com/amucinom/amucinom.github.io.git"
     },
-    "author": "Aldo Mucino <amucinom@gmail.com> (http://amucinom.github.io)",
+    "author": "amucinom <amucinom@gmail.com> (http://amucinom.github.io)",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/amucinom/amucinom.github.io/issues"
