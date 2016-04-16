@@ -91,7 +91,7 @@ a {
     background: #F44336;
 }
 
-.nav a:link,
+.nav > a:link,
 a:visited {
     text-decoration: none;
     color: #f4f4f4;
