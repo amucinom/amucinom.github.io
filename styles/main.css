@@ -141,7 +141,7 @@ h4 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-around;
 }
 
