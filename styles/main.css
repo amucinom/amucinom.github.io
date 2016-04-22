@@ -61,7 +61,7 @@ h4 {
 }
 
 .wrapper {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -97,18 +97,13 @@ h4 {
 }
 
 .menu {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    height: 64px;
+    float: right;
+    width: 400px;
+    height: 100%;
     margin: 0;
-    background: #D32F2F;
-    -webkit-flex-flow: row;
-    -ms-flex-flow: row;
     flex-flow: row;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    justify-content: space-around;
 }
 
 .menu span {
@@ -117,6 +112,11 @@ h4 {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+.nav-header {
+    display: inline-block;
+    padding: 15px 0;
 }
 
 .active {
@@ -134,7 +134,7 @@ h4 {
 }
 
 .card-container {
-    max-width: 1000px;
+    max-width: 1200px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -152,15 +152,19 @@ h4 {
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.card-width_300 {
-    width: 300px;
+.width_third {
+    width: calc(100%/3 - 1rem);
 }
 
-.card-width_half {
-    width: calc(100%/2);
+.width_two-thirds {
+    width: calc(100%/1.5 - 1rem);
 }
 
-.card-width_full {
+.width_half {
+    width: calc(100%/2 - 1rem);
+}
+
+.width_full {
     width: calc(100% - 1rem);
 }
 
