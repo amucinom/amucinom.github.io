@@ -56,6 +56,10 @@ h4 {
     color: #fff;
 }
 
+.main-title::-moz-selection {
+    background-color: #03A9f4;
+}
+
 .main-title::selection {
     background-color: #03A9f4;
 }
@@ -106,13 +110,19 @@ h4 {
 }
 
 .menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     float: right;
     width: 400px;
     height: 100%;
     margin: 0;
-    flex-flow: row;
-    justify-content: flex-end;
+    -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .nav-header {
@@ -135,8 +145,12 @@ h4 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    align-items: stretch;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
 }
 
 .card {
@@ -145,7 +159,6 @@ h4 {
     margin: 0.5rem;
     background: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 1);
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
