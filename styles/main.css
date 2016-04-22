@@ -157,8 +157,7 @@ h4 {
     display: block;
     min-width: calc(100%/4 - 1rem);
     margin: 0.5rem;
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 1);
+    background: #fff;
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
@@ -180,6 +179,12 @@ h4 {
 
 .width_full {
     width: calc(100% - 1rem);
+}
+
+.true-card {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .card-text {
