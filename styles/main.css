@@ -20,30 +20,27 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    color: #444;
 }
 
 h1 {
     font-size: 34px;
     font-weight: 500;
-    color: #666;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 500;
-    color: #666;
 }
 
 h3 {
     font-size: 28px;
     font-weight: 500;
-    color: #666;
 }
 
 h4 {
     font-size: 24px;
     font-weight: 500;
-    color: #666;
 }
 
 .main a,
@@ -137,26 +134,38 @@ h4 {
 }
 
 .card-container {
-    max-width: 1200px;
+    max-width: 1000px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
 
 .card {
     display: block;
     min-width: 25%;
-    max-width: 80%;
-    margin: 24px auto;
+    margin: 0.5rem;
     background: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 1);
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
+.card-width_300 {
+    width: 300px;
+}
+
+.card-width_half {
+    width: calc(100%/2);
+}
+
+.card-width_full {
+    width: calc(100% - 1rem);
+}
+
 .card-text {
+    line-height: 1.5;
     margin: 32px;
 }
 
@@ -171,7 +180,7 @@ h4 {
 }
 
 .card-img {
-    width: 800px;
+    width: 100%;
 }
 
 .name {
