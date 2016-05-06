@@ -43,6 +43,20 @@ h4 {
     font-weight: 500;
 }
 
+/** General **/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    height: 64px;
+    padding: 0 40px;
+}
+
+/** Nav */
+
 .main a,
 .main a:link,
 .main a:visited {
@@ -64,19 +78,9 @@ h4 {
     background-color: #03A9f4;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.row {
-    height: 64px;
-    padding: 0 40px;
-}
-
 .link {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 96px;
     display: inline-block;
     padding-left: 2.5rem;
@@ -135,6 +139,10 @@ h4 {
     display: inline-block;
     padding: 15px 0;
 }
+
+/** Header **/
+
+/** Main section **/
 
 .main .wrapper {
     padding-top: 32px;
