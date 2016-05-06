@@ -140,7 +140,17 @@ h4 {
     padding: 15px 0;
 }
 
-/** Header **/
+/** Hero **/
+
+.hero {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #D32F2F;
+}
+
+.hero img {
+    max-width: 50%;
+}
 
 /** Main section **/
 
