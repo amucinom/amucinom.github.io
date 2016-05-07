@@ -1,7 +1,7 @@
 /** Some components and styles are inspired by Google's Material Design **/
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333;
     background: rgb(244, 245, 246);
@@ -18,6 +18,7 @@ h3,
 h4,
 h5,
 h6 {
+    /* font-family: 'Roboto' ,'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; */
     margin: 0;
     padding: 0;
     color: #444;
@@ -46,7 +47,7 @@ h4 {
 /** General **/
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -55,7 +56,10 @@ h4 {
     padding: 0 40px;
 }
 
-/** Nav */
+.main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 .main a,
 .main a:link,
@@ -78,6 +82,8 @@ h4 {
     background-color: #03A9f4;
 }
 
+/** Nav **/
+
 .link {
     font-size: 14px;
     font-weight: 300;
@@ -96,12 +102,11 @@ h4 {
     width: 100%;
     min-height: 64px;
     max-height: 1000px;
-    background-color: #D32F2F;
+    /* background-color: #38C9C4; */
 }
 
 .masthead {
     height: 96px;
-    padding: 0 0.5rem;
 }
 
 .nav a:link,
@@ -142,14 +147,30 @@ h4 {
 
 /** Hero **/
 
+.header {
+    background-color: #FC615C;
+}
+
 .hero {
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: #D32F2F;
 }
 
 .hero img {
-    max-width: 50%;
+    max-width: 45%;
+    padding-left: 2rem;
+}
+
+.intro {
+    width: 50%;
+    padding-right: 4rem;
+    display: inline-block;
+    float: left;
+}
+
+.intro h1 {
+    font-weight: 500;
+    display: inline-block;
 }
 
 /** Main section **/
@@ -159,7 +180,7 @@ h4 {
 }
 
 .card-container {
-    max-width: 1200px;
+    max-width: 1000px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
