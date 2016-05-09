@@ -1,25 +1,26 @@
-    {
-    "name": "amucinom.github.io",
-    "version": "1.0.0",
-    "description": "My personal portfolio site",
-    "main": "main.js",
-    "dependencies": {},
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-server-livereload": "^1.7.3",
-        "gulp-watch": "^4.3.5"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/amucinom/amucinom.github.io.git"
-    },
-    "author": "amucinom <amucinom@gmail.com> (http://amucinom.github.io)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/amucinom/amucinom.github.io/issues"
-    },
-    "homepage": "https://github.com/amucinom/amucinom.github.io#readme"
+{
+  "name": "amucinom.github.io",
+  "version": "1.0.0",
+  "description": "My personal portfolio site",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.7.3",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amucinom/amucinom.github.io.git"
+  },
+  "author": "amucinom <amucinom@gmail.com> (http://amucinom.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amucinom/amucinom.github.io/issues"
+  },
+  "homepage": "https://github.com/amucinom/amucinom.github.io#readme"
 }

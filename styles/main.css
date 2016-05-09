@@ -1,5 +1,7 @@
 /** Some components and styles are inspired by Google's Material Design **/
-
+body, html {
+    height: 100%;
+}
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -69,7 +71,7 @@ h4 {
 }
 
 .main-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
 }
@@ -99,10 +101,10 @@ h4 {
 }
 
 .nav {
+    position: fixed;
     width: 100%;
-    min-height: 64px;
-    max-height: 1000px;
-    /* background-color: #38C9C4; */
+    min-height: 4rem;
+    background-color: #FC615C;
 }
 
 .masthead {
@@ -148,30 +150,38 @@ h4 {
 /** Hero **/
 
 .header {
+    /*height: 100%;*/
     background-color: #FC615C;
 }
 
 .hero {
-    padding-top: 2em;
+    padding-top: 8rem;
     padding-bottom: 2em;
 }
 
 .hero img {
+    display: block;
     max-width: 45%;
-    padding-left: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .intro {
-    width: 50%;
-    padding-right: 4rem;
-    display: inline-block;
-    float: left;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-right: 4rem; */
+    /* display: inline-block; */
+    /* float: left; */
 }
 
 .intro h1 {
+    font-size: 2rem;
     font-weight: 500;
-    display: inline-block;
     color: #fff;
+    text-align: center;
 }
 
 /** Main section **/
