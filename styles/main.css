@@ -123,6 +123,7 @@ h4 {
 .menu {
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     float: right;
     width: 400px;
@@ -133,6 +134,7 @@ h4 {
             flex-flow: row;
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
+            -webkit-box-pack: end;
             justify-content: flex-end;
 }
 
@@ -194,12 +196,14 @@ h4 {
     max-width: 1000px;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
+            -webkit-box-align: stretch;
             align-items: stretch;
 }
 
