@@ -103,8 +103,7 @@ h4 {
 .nav {
     position: fixed;
     width: 100%;
-    min-height: 64px;
-    max-height: 1000px;
+    min-height: 4rem;
     background-color: #FC615C;
 }
 
@@ -151,12 +150,12 @@ h4 {
 /** Hero **/
 
 .header {
-    height: 100%;
+    /*height: 100%;*/
     background-color: #FC615C;
 }
 
 .hero {
-    padding-top: 6rem;
+    padding-top: 8rem;
     padding-bottom: 2em;
 }
 
@@ -247,7 +246,7 @@ h4 {
     margin-right: 0;
     margin-left: 0;
     font-size: 1rem;
-    /*border-top: 1px solid rgba(160,160,160,0.2);*/
+    border-top: 1px solid rgba(160,160,160,0.2);
 }
 
 .card-img {
