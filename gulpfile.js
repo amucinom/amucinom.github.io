@@ -1,15 +1,5 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var serve = require('gulp-server-livereload');
-
-// gulp.task('serve', function() {
-//     gulp.src('.')
-//     	.pipe(serve({
-//     		livereload: true,
-//     		directoryListing: false,
-//     		open: true,
-//     	}));
-// });
 
 gulp.task('browser-sync', function () {
 
