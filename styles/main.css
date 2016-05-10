@@ -4,7 +4,7 @@ body, html {
     height: 100%;
 }
 body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333;
     background: rgb(244, 245, 246);
@@ -50,7 +50,7 @@ h4 {
 /** General **/
 
 .wrapper {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -88,6 +88,7 @@ h4 {
 /** Nav **/
 
 .link {
+    font-family: 'Lato', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 96px;
@@ -162,21 +163,19 @@ h4 {
     padding-top: 10rem;
     padding-bottom: 4em;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .hero img {
-    max-width: 45%;
-    padding-top: 4rem;
+    width: 45%;
+    height: 45%;
     padding-bottom: 3rem;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .intro h1 {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 300;
     color: #fff;
     text-align: center;
 }
