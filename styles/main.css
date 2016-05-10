@@ -105,7 +105,8 @@ h4 {
     position: fixed;
     width: 100%;
     min-height: 4rem;
-    background-color: #FC615C;
+    /*background-color: #FC615C;*/
+    background-color: #3F51B5;
 }
 
 .masthead {
@@ -154,12 +155,13 @@ h4 {
 
 .header {
     /*height: 100%;*/
-    background-color: #FC615C;
+    /*background-color: #FC615C;*/
+    background-color: #3F51B5;
 }
 
 .hero {
-    padding-top: 8rem;
-    padding-bottom: 2em;
+    padding-top: 10rem;
+    padding-bottom: 4em;
     display: flex;
     justify-content: center;
     flex-direction: column;
