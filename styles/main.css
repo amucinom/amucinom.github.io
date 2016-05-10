@@ -155,8 +155,12 @@ h4 {
 
 .header {
     /*height: 100%;*/
+<<<<<<< HEAD
     /*background-color: #FC615C;*/
     background-color: #3F51B5;
+=======
+    background-color: #FC615C;
+>>>>>>> d334da55a5889e7d78beaeb3e539d3f5dbc3c6ae
 }
 
 .hero {
