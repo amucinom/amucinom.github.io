@@ -61,7 +61,7 @@ h4 {
 
 .main {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .main a,
@@ -261,4 +261,15 @@ h4 {
     padding-top: 1em;
     padding-bottom: 1em;
     color: white;
+}
+
+/* Footer */
+
+footer {
+    background: #303340;
+    color: #f4f4f4;
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
 }
