@@ -4,6 +4,9 @@ body, html {
     height: 100%;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Roboto', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333;
@@ -60,6 +63,7 @@ h4 {
 }
 
 .main {
+    flex: 1 0 auto;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
@@ -208,6 +212,7 @@ h4 {
 .card {
     display: block;
     min-width: calc(100%/4 - 1rem);
+    min-height: 360px;
     margin: 0.5rem;
     background: #fff;
     border-radius: 2px;
@@ -250,6 +255,7 @@ h4 {
 }
 
 .card-links {
+    min-height: 76px;
     margin-right: 0;
     margin-left: 0;
     font-size: 1rem;
@@ -275,6 +281,10 @@ footer {
     color: #f4f4f4;
     display: block;
     width: 100%;
-    padding: 2rem 1rem;
     text-align: center;
+}
+
+.footer-copyright {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
