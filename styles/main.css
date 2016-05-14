@@ -264,13 +264,13 @@ h4 {
 }
 
 .card-img {
-    position: relative;
+    /*position: relative;*/
 }
 
 .card-img img {
     display: block;
     border-radius: 2px 2px 0 0;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     border: 0;
 }
