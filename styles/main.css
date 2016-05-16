@@ -10,7 +10,6 @@ body {
     font-size: 14px;
     color: #333;
     background: rgb(244, 245, 246);
-    background: rgba(244, 245, 246, 1);
 }
 
 * {
@@ -62,7 +61,10 @@ h4 {
 }
 
 .main {
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
@@ -169,15 +171,26 @@ h4 {
 .hero {
     padding-top: 10rem;
     padding-bottom: 4em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    align-items: center;
 }
 
 .hero img {
     width: 45%;
     height: 45%;
-    padding-bottom: 3rem;
+    padding: 4rem 0;
 }
 
 .intro h1 {
@@ -185,6 +198,7 @@ h4 {
     font-weight: 300;
     color: #fff;
     text-align: center;
+    line-height: 1.75;
 }
 
 /** Main section **/
@@ -210,36 +224,34 @@ h4 {
 
 .card {
     display: block;
-    min-width: calc(100%/4 - 1rem);
+    min-width: calc(100%/4 - 1.5rem);
     min-height: 360px;
-    margin: 0.5rem;
+    margin: 0.75rem;
     background: #fff;
     border-radius: 2px;
+    -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
-}
-
-.card:hover {
     box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .width_third {
-    width: calc(100%/3 - 1rem);
+    width: calc(100%/3 - 1.5rem);
 }
 
 .width_two-thirds {
-    width: calc(100%/1.5 - 1rem);
+    width: calc(100%/1.5 - 1.5rem);
 }
 
 .width_quarter {
-    width: calc(100%/4 - 1rem);
+    width: calc(100%/4 - 1.5rem);
 }
 
 .width_half {
-    width: calc(100%/2 - 1rem);
+    width: calc(100%/2 - 1.5rem);
 }
 
 .width_full {
-    width: calc(100% - 1rem);
+    width: calc(100% - 1.5rem);
 }
 
 .true-card {
