@@ -169,7 +169,7 @@ h4 {
 }
 
 .hero {
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 4em;
     display: -webkit-box;
     display: -webkit-flex;
@@ -190,7 +190,7 @@ h4 {
 .hero-illustration {
     width: 75%;
     height: 75%;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .arrow {
