@@ -164,7 +164,7 @@ h4 {
 /** Hero **/
 
 .header {
-    /*height: 100%;*/
+    height: 100%;
     background-color: #FC615C;
 }
 
@@ -187,10 +187,16 @@ h4 {
     align-items: center;
 }
 
-.hero img {
-    width: 45%;
-    height: 45%;
+.hero-illustration {
+    width: 75%;
+    height: 75%;
     padding: 2rem 0;
+}
+
+.arrow {
+    padding-top: 2rem;
+    width: 5%;
+    height: 5%;
 }
 
 .intro h1 {
