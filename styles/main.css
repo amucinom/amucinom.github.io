@@ -116,7 +116,7 @@ h4 {
     width: 100%;
     min-height: 4rem;
     background-color: #FC615C;
-    /*background-color: #3F51B5;*/
+    z-index: 9999;
 }
 
 .masthead {
@@ -171,32 +171,24 @@ h4 {
 .hero {
     padding-top: 8rem;
     padding-bottom: 4em;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    align-items: center;
 }
 
 .hero-illustration {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     height: 75%;
     padding: 4rem 0;
 }
 
 .arrow {
-    padding-top: 2rem;
-    width: 5%;
-    height: 5%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -20px;
+    width: 2%;
+    height: 2%;
 }
 
 .intro h1 {
