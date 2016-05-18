@@ -90,12 +90,8 @@ p {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8rem;
+    padding-top: 6.5rem;
     line-height: 1.75;
-}
-
-.main-subpage section {
-    padding-top: 2rem;
 }
 
 .main-subpage  section  h1:first-child {
@@ -120,10 +116,10 @@ p {
 
 .resume {
     text-align: center;
+    margin-top: 1.5rem;
 }
 
 .resume-link {
-    margin: 0 auto;
     text-decoration: none;
     background: #1E6AA8;
     color: #fff;
