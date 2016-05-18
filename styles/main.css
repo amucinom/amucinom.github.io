@@ -94,6 +94,10 @@ p {
     line-height: 1.75;
 }
 
+.main-subpage section {
+    padding-bottom: 2rem;
+}
+
 .main-subpage  section  h1:first-child {
     font-size: 36px;
 }
@@ -121,7 +125,7 @@ p {
 
 .resume-link {
     text-decoration: none;
-    background: #1E6AA8;
+    background: #1565C0;
     color: #fff;
     padding: 1rem 2rem;
     border-radius: 2px;
