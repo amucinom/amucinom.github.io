@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+	.header {
+		height: auto;
+	}
+
+	.intro h1 {
+		font-size: 20px;
+	}
+
+	.nav-header {
+		/*width: 100%;
+		text-align: center;
+		margin: 0 auto;*/
+		display: none;
+	}
+
+	.menu {
+		display: block;
+		text-align: center;
+	}
+
+	.link {
+		padding: 0 1rem;
+	}
+
+	.card-container {
+		margin: 0 0.5rem;
+	}
+
+	.footer, .footer-text {
+		text-align: center;
+	}
+
+	.footer-copyright > * {
+		margin: 0 1rem;
+	}
+
+	.footer .width_half, .social {
+		width: 100%;
+	}
+
+	.social {
+		font-size: 1.5rem;
+		display: block;
+		clear: both;
+		float: none;
+	}
+
+	.social-link {
+		display: inline;
+		padding-right: 2rem;
+	}
+
+}
