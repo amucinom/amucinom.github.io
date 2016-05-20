@@ -95,7 +95,7 @@ p {
     margin-right: auto;
     padding-top: 6.5rem;
     line-height: 1.75;
-    /*text-align: center;*/
+    text-align: center;
 }
 
 .main-subpage img {
@@ -115,6 +115,7 @@ p {
 }
 
 .main-subpage div[class="width_half"] {
+    text-align: center;
     vertical-align: top;
 }
 
@@ -127,6 +128,7 @@ p {
 }
 
 .main-subpage ul {
+    text-align: left;
     list-style: none;
     -webkit-padding-start: 0;
 }
@@ -135,7 +137,8 @@ p {
     font-weight: 300;
 }
 
-.main-subpage .width_third,
+.main-subpage
+.width_third,
 .width_half,
 .width_full,
 .width_quarter,
@@ -402,15 +405,52 @@ p {
 
 /* Footer */
 
-footer {
+/*footer {
+    position: relative;
     background: #303340;
     color: #f4f4f4;
     display: block;
     width: 100%;
     text-align: center;
+}*/
+
+.footer {
+    color: #f1f1f1;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #333333;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .footer-copyright {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 20px;
+    background-color: #3d3d3d;
+    height: 64px;
+    line-height: 64px;
+}
+
+.social {
+    display: inline-block;
+    float: right;
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.social-link {
+    padding-right: 2rem;
+}
+
+.social-link:last-child {
+    padding: 0;
+}
+
+.social-link:link, .social-link:visited {
+    color: #f1f1f1;
+    text-decoration: none;
 }
