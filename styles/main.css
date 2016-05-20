@@ -90,12 +90,12 @@ p {
 }
 
 .main-subpage {
-    max-width: 800px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6.5rem;
     line-height: 1.75;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .main-subpage img {
@@ -114,12 +114,25 @@ p {
     padding-bottom: 2rem;
 }
 
+.main-subpage div[class="width_half"] {
+    vertical-align: top;
+}
+
 .main-subpage  section  h1 {
     padding-bottom: 0.5rem;
 }
 
 .main-subpage  section  h1:first-child {
-    font-size: 36px;
+    font-size: 32pt;
+}
+
+.main-subpage ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+.main-subpage h3, h4 {
+    font-weight: 300;
 }
 
 .main-subpage .width_third,
@@ -301,7 +314,6 @@ p {
 .card {
     display: block;
     min-width: calc(100%/4 - 1.5rem);
-    /*min-height: 360px;*/
     margin: 0.75rem;
     background: #fff;
     border-radius: 2px;
