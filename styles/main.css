@@ -157,6 +157,10 @@ p {
     margin-top: 1.5rem;
 }
 
+.resume a {
+    margin: 0 2rem;
+}
+
 .btn {
     text-decoration: none;
     background: #1565C0;
