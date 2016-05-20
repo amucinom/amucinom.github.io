@@ -75,10 +75,14 @@
 		margin: 0;
 	}
 
+	.arrow {
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
-	.nav-header {
+	.nav-header, .arrow {
 		display: none;
 	}
 }
