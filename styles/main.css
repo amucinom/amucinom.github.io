@@ -357,7 +357,7 @@ p {
 }
 
 .true-card {
-    width: 800px;
+    max-width: 625px;
     margin-right: auto;
     margin-left: auto;
 }
