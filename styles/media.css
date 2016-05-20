@@ -53,6 +53,10 @@
 		padding-left: 1rem;
 	}
 
+	.footer-text {
+		text-align: center;
+	}
+
 	.social {
 		font-size: 1.5rem;
 		display: block;
@@ -63,6 +67,10 @@
 	.social-link {
 		display: inline;
 		padding-right: 2rem;
+	}
+
+	.mobile_width_half {
+		margin: 0;
 	}
 
 }
