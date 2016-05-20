@@ -1,5 +1,14 @@
 @media screen and (max-width: 480px) {
 
+	.wrapper {
+		width: 359px;
+		margin: 0;
+	}
+
+	.masthead {
+		margin-right: 0;
+	}
+
 	.header {
 		height: auto;
 	}
@@ -8,14 +17,16 @@
 		font-size: 20px;
 	}
 
+	.nav {
+		max-width: 100%;
+	}
+
 	.nav-header {
-		/*width: 100%;
-		text-align: center;
-		margin: 0 auto;*/
 		display: none;
 	}
 
 	.menu {
+		width: 375px;
 		display: block;
 		text-align: center;
 	}
@@ -28,7 +39,7 @@
 		margin: 0 0.5rem;
 	}
 
-	.footer, .footer-text {
+	.footer {
 		text-align: center;
 	}
 
@@ -38,6 +49,8 @@
 
 	.footer .width_half, .social {
 		width: 100%;
+		padding-right: 1rem;
+		padding-left: 1rem;
 	}
 
 	.social {

@@ -11,4 +11,9 @@ $(document).ready(function() {
 
 	});
 
+	if (/Mobi/.test(navigator.userAgent)) {
+    	$('#masthead').removeClass('wrapper');
+    	$('#hero').removeClass('wrapper');
+	}
+
 });
