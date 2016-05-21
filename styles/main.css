@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'Roboto', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
+    width: 100%;
     min-height: 100%;
     height: 100%;
     color: #333;

@@ -4,7 +4,7 @@
         margin: 0;
     }
     .masthead {
-        margin-right: 0;
+        margin: 0 auto;
     }
     .header {
         height: auto;
@@ -37,7 +37,7 @@
     .footer-copyright > * {
         margin: 0 1rem;
     }
-    .footer .width_half,
+    .footer,
     .social {
         width: 100%;
         padding-right: 1rem;
