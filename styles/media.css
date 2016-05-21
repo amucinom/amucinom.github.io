@@ -75,6 +75,15 @@
 		margin: 0;
 	}
 
+	.full_width {
+		width: 100%;
+	}
+
+	.half_width {
+		width: 40%;
+		margin: 0;
+	}
+
 	.arrow {
 		display: none;
 	}

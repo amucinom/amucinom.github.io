@@ -16,6 +16,7 @@ $(document).ready(function() {
     	$('#hero').removeClass('wrapper');
     	$('#footer').removeClass('wrapper');
     	$('#card-container').removeClass('wrapper');
+    	$('#subpage').removeClass('wrapper');
 	}
 
 });
