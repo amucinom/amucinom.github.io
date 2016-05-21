@@ -72,11 +72,15 @@
         margin: 0;
         padding: 0.5rem;
     }
+
 }
 
 @media screen and (max-width: 480px) {
     .nav-header,
     .arrow {
         display: none;
+    }
+    .card {
+        width: 100%;
     }
 }
