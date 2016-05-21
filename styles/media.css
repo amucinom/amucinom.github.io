@@ -77,15 +77,23 @@
 
 	.full_width {
 		width: 100%;
+		padding: 0.5rem;
+		text-align: center;
 	}
 
 	.half_width {
 		width: 40%;
 		margin: 0;
+		padding: 0.5rem;
+		text-align: center;
 	}
 
 	.arrow {
 		display: none;
+	}
+
+	.profile-pic {
+
 	}
 
 }
