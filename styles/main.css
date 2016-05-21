@@ -6,7 +6,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+
 }
 body {
     font-family: 'Roboto', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -16,6 +16,7 @@ body {
     height: 100%;
     color: #333;
     background: rgb(244, 245, 246);
+    overflow-x: hidden;
 }
 
 * {
