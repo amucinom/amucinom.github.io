@@ -1,105 +1,82 @@
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 359px;
+        margin: 0;
+    }
+    .masthead {
+        margin-right: 0;
+    }
+    .header {
+        height: auto;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+    .nav {
+        max-width: 100%;
+    }
+    .nav-header {
+        display: none;
+    }
+    .menu {
+        width: 375px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .link {
+        padding: 0 1rem;
+    }
+    .card-container {
+        margin: 0 0.5rem;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-copyright > * {
+        margin: 0 1rem;
+    }
+    .footer .width_half,
+    .social {
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .footer-text {
+        text-align: center;
+    }
+    .social {
+        font-size: 1.5rem;
+        display: block;
+        clear: both;
+        float: none;
+    }
+    .social-link {
+        display: inline;
+        padding-right: 2rem;
+    }
+    .mobile_width_half {
+        margin: 0;
+    }
+    .arrow {
+        display: none;
+    }
 
-	.wrapper {
-		width: 359px;
-		margin: 0;
-	}
-
-	.masthead {
-		margin-right: 0;
-	}
-
-	.header {
-		height: auto;
-	}
-
-	.intro h1 {
-		font-size: 20px;
-	}
-
-	.nav {
-		max-width: 100%;
-	}
-
-	.nav-header {
-		display: none;
-	}
-
-	.menu {
-		width: 375px;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		float: none;
-	}
-
-	.link {
-		padding: 0 1rem;
-	}
-
-	.card-container {
-		margin: 0 0.5rem;
-	}
-
-	.footer {
-		text-align: center;
-	}
-
-	.footer-copyright > * {
-		margin: 0 1rem;
-	}
-
-	.footer .width_half, .social {
-		width: 100%;
-		padding-right: 1rem;
-		padding-left: 1rem;
-	}
-
-	.footer-text {
-		text-align: center;
-	}
-
-	.social {
-		font-size: 1.5rem;
-		display: block;
-		clear: both;
-		float: none;
-	}
-
-	.social-link {
-		display: inline;
-		padding-right: 2rem;
-	}
-
-	.mobile_width_half {
-		margin: 0;
-	}
-
-	.full_width {
-		width: 100%;
-		padding: 0.5rem;
-		text-align: center;
-	}
-
-	.half_width {
-		width: 40%;
-		margin: 0;
-		padding: 0.5rem;
-		text-align: center;
-	}
-
-	.arrow {
-		display: none;
-	}
-
-	.profile-pic {
-
-	}
-
+    .full_width {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .half_width {
+        width: 40%;
+        margin: 0;
+        padding: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
-	.nav-header, .arrow {
-		display: none;
-	}
+    .nav-header,
+    .arrow {
+        display: none;
+    }
 }
