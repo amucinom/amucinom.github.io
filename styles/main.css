@@ -217,7 +217,7 @@ p {
     position: fixed;
     width: 100%;
     min-height: 4rem;
-    background-color: #FC615C;
+    background-color: #EF5350;
     z-index: 9999;
 }
 
@@ -267,7 +267,7 @@ p {
 
 .header {
     height: 100%;
-    background-color: #FC615C;
+    background-color: #EF5350;
 }
 
 .hero {
@@ -422,7 +422,7 @@ p {
     color: #f1f1f1;
     margin-top: 20px;
     padding-top: 20px;
-    background-color: #333333;
+    background-color: #303030;
 }
 
 .footer-text {
