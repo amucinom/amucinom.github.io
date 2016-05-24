@@ -64,6 +64,7 @@
     .full_width {
         width: 100%;
         padding: 0.5rem;
+        margin: 0;
     }
     .half_width {
         width: 40%;
@@ -80,5 +81,11 @@
     }
     .card {
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
+/*
+    .card-img img {
+        height: 50%;
+    }*/
 }
