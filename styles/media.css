@@ -85,7 +85,8 @@
         margin-right: 0;
     }
 
-    .card-img img {
-        min-height: auto;
-    }
+    /*.card-img {
+        height: 100%;
+    }*/
+
 }
