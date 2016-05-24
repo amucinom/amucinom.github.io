@@ -84,8 +84,8 @@
         margin-left: 0;
         margin-right: 0;
     }
-/*
+
     .card-img img {
-        height: 50%;
-    }*/
+        min-height: auto;
+    }
 }
