@@ -98,14 +98,6 @@ p {
     text-align: center;
 }
 
-.portfolio-subpage {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 6.5rem;
-    line-height: 1.75;
-}
-
 .main-subpage img {
     display: block;
     max-width: 40%;
@@ -307,10 +299,6 @@ p {
 
 /** Main section **/
 
-.main .wrapper {
-    padding-top: 32px;
-}
-
 .card-container {
     max-width: 1200px;
     display: -webkit-flex;
@@ -365,7 +353,7 @@ p {
 }
 
 .true-card {
-    max-width: 625px;
+    max-width: 700px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -466,12 +454,29 @@ p {
     text-decoration: none;
 }
 
-.page-header {
+.portfolio-header {
     text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.portfolio-subpage {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.75;
+    padding-top: 4rem;
+}
+
+.portfolio-hero {
+    padding-top: 6rem;
+    background-color: #EF5350;
 }
 
 .portfolio-img {
-    /*position: relative;*/
-    width: 100%;
-    /*height: 100%;*/
+    display: block;
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
 }
