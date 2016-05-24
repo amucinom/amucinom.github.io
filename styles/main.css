@@ -114,7 +114,7 @@ p {
     padding-bottom: 2rem;
 }
 
-.main-subpage div[class="width_half"] {
+.main-subpage .width_half {
     text-align: center;
     vertical-align: top;
 }
@@ -155,12 +155,12 @@ p {
     color: #458AFF;
 }
 
-.resume {
+.call-btn {
     text-align: center;
-    margin-top: 1.5rem;
+    padding-top: 6rem;
 }
 
-.resume a {
+.call-btn a {
     margin: 0 2rem;
 }
 
@@ -479,4 +479,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
+}
+
+
+.text-center {
+    text-align: center;
 }
