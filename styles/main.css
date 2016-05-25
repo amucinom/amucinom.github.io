@@ -66,6 +66,7 @@ p {
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
+    margin: 0.5rem 0;
 }
 /** General **/
 
@@ -352,19 +353,19 @@ p {
 }
 
 .true-card {
-    max-width: 700px;
+    max-width: 675px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .page-card {
-    margin-top: -40%;
+    margin-top: -30%;
     padding: 4.5rem 3rem;
 }
 
 .portfolio-card {
     margin-top: -25%;
-    padding: 4.5rem 3rem;
+    padding: 4rem 4rem;
 }
 
 .page-card .btn .btn:link, .btn:visited {
@@ -373,7 +374,7 @@ p {
 
 .page-bg {
     width: 100%;
-    height: 45%;
+    height: 35%;
     background-color: #EF5350;
 }
 
@@ -423,17 +424,8 @@ p {
 
 /* Footer */
 
-/*footer {
-    position: relative;
-    background: #303340;
-    color: #f4f4f4;
-    display: block;
-    width: 100%;
-    text-align: center;
-}*/
-
 .footer {
-    color: #f1f1f1;
+    color: #f4f4f4;
     margin-top: 20px;
     padding-top: 20px;
     background-color: #303030;
@@ -492,8 +484,7 @@ p {
 
 .portfolio-header {
     text-align: center;
-    color: #fff;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
 }
 
 .portfolio-subpage {
@@ -515,6 +506,14 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
+}
+
+.portfolio-subimg {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0;
 }
 
 
