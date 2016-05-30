@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     .wrapper {
-        width: 359px;
+        width: 100%;
         margin: 0;
     }
     .masthead {
@@ -37,14 +37,14 @@
     .footer-copyright > * {
         margin: 0 1rem;
     }
-    .footer,
-    .social {
+    .footer {
         width: 100%;
     }
     .footer-text {
         text-align: center;
     }
     .social {
+        margin: 0 auto;
         font-size: 1.5rem;
         display: block;
         clear: both;
@@ -70,6 +70,11 @@
         width: 40%;
         margin: 0;
         padding: 0.5rem;
+    }
+
+    .portfolio-img {
+        width: 30%;
+        padding-bottom: 0;
     }
 
 }
