@@ -75,6 +75,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .nav {
+        max-width: 375px;
+    }
+
     .nav-header,
     .arrow {
         display: none;
