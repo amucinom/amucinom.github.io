@@ -19,7 +19,7 @@
         display: none;
     }
     .menu {
-        width: 375px;
+        width: 100%;
         display: block;
         margin: 0 auto;
         text-align: center;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 480px) {
     .nav {
-        max-width: 375px;
+        width: 100%;
     }
 
     .nav-header,
@@ -113,6 +113,10 @@
     .portfolio-img {
         width: 40%;
         padding-bottom: 0;
+    }
+
+    .tags {
+        display: none;
     }
 
     /*.card-img {
