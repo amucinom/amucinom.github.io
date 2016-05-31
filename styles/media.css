@@ -89,9 +89,9 @@
         display: none;
     }
     .card {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: calc(100%-1rem);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     .portfolio-card, .page-card {
