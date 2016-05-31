@@ -119,6 +119,12 @@
         display: none;
     }
 
+    .mobile_width_half {
+        width: calc(100% - 1rem);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
     /*.card-img {
         height: 100%;
     }*/
