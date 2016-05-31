@@ -67,6 +67,11 @@ p {
     font-style: normal;
     margin: 0.5rem 0;
 }
+
+button:focus, a:focus, input[type]:focus {
+    outline: 0;
+}
+
 /** General **/
 
 .wrapper {
