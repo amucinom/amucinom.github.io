@@ -245,7 +245,7 @@ button:focus, a:focus, input[type]:focus {
 
 .link:hover {
     color: rgba(255, 255, 255,1);
-    border-bottom: 2px solid #fff;
+    /*border-bottom: 2px solid #fff;*/
 }
 
 .nav {
