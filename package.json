@@ -7,6 +7,7 @@
   "devDependencies": {
     "browser-sync": "^2.12.10",
     "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
     "gulp-server-livereload": "^1.8.0",
     "gulp-watch": "^4.3.6"
   },
@@ -22,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/amucinom/amucinom.github.io/issues"
   },
-  "homepage": "https://github.com/amucinom/amucinom.github.io#readme"
+  "homepage": "https://amucinom.github.io/"
 }
