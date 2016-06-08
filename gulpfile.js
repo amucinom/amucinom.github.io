@@ -10,7 +10,7 @@ gulp.task('serve', ['sass'], function() {
         }
     });
 
-    gulp.watch("styles/sass/*.scss").on('change', browserSync.reload);
+    gulp.watch("styles/sass/*.scss", ['sass']).on('change', browserSync.reload);
     // gulp.watch("styles/*.css").on("change", browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
     gulp.watch("portfolio/*.html").on('change', browserSync.reload);
@@ -21,7 +21,7 @@ gulp.task('sass', function() {
     return gulp.src('styles/sass/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./styles/css/'))
-        .pipe(browserSync.strem());
+        .pipe(browserSync.stream());
 });
 
 gulp.task('default', ['serve']);
