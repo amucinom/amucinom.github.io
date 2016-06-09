@@ -231,8 +231,7 @@ button:focus, a:focus, input[type]:focus {
     font-weight: 400;
     line-height: 1.5;
     display: inline-block;
-    /*padding-left: 2.5rem;*/
-    padding: 20px 12px 21px;
+    padding: 20px 12px 20px;
     height: 100%;
     margin: 0;
     text-align: center;
@@ -240,12 +239,12 @@ button:focus, a:focus, input[type]:focus {
     text-decoration: none;
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    transition: color 0.25s;
+    transition: all 0.5s;
 }
 
 .link:hover {
     color: rgba(255, 255, 255,1);
-    /*border-bottom: 2px solid #fff;*/
+    background-color: #E53935;
 }
 
 .nav {
@@ -298,21 +297,21 @@ button:focus, a:focus, input[type]:focus {
 /** Hero **/
 
 .header {
-    height: 75%;
+    /*height: 75%;*/
     background-color: #E95D52;
 }
 
 .hero {
     padding-top: 8rem;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
 .hero-illustration {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 55%;
+    /*height: 50%;*/
     padding: 4rem 0;
 }
 
