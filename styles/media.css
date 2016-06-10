@@ -29,6 +29,9 @@
         padding: 1rem 1rem;
     }
     .card-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         /*margin: 0 0.5rem;*/
     }
     .footer {
@@ -89,7 +92,7 @@
         display: none;
     }
     .card {
-        width: calc(100%-1rem);
+        width: calc(100% - 1rem);
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }

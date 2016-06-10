@@ -356,8 +356,8 @@ button:focus, a:focus, input[type]:focus {
 
 .card {
     display: block;
-    min-width: calc(100%/4 - 1.5rem);
-    margin: 0.75rem;
+    min-width: calc(100%/4 - 2rem);
+    margin: 1rem;
     background: #fff;
     border-radius: 2px;
     -webkit-transition: all 0.25s ease-in-out;
@@ -370,23 +370,23 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .width_third {
-    width: calc(100%/3 - 1.5rem);
+    width: calc(100%/3 - 2rem);
 }
 
 .width_two-thirds {
-    width: calc(100%/1.5 - 1.5rem);
+    width: calc(100%/1.5 - 2rem);
 }
 
 .width_quarter {
-    width: calc(100%/4 - 1.5rem);
+    width: calc(100%/4 - 2rem);
 }
 
 .width_half {
-    width: calc(100%/2 - 1.5rem);
+    width: calc(100%/2 - 2rem);
 }
 
 .width_full {
-    width: calc(100% - 1.5rem);
+    width: calc(100% - 2rem);
 }
 
 .true-card {
