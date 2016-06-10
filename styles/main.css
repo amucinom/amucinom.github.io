@@ -340,7 +340,7 @@ button:focus, a:focus, input[type]:focus {
 /** Main section **/
 
 .card-container {
-    max-width: 1200px;
+    max-width: 1000px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -webkit-box;
@@ -614,7 +614,7 @@ button:focus, a:focus, input[type]:focus {
     flex-wrap: wrap;
     justify-content: flex-start;
     max-width: 1200px;
-    /*width: 1000px;*/
+    width: 1000px;
     margin: 0 auto;
     padding: 1rem 0;
 }
