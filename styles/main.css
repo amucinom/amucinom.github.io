@@ -81,8 +81,9 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .row {
+    width: 100%;
     height: 64px;
-    padding: 0 40px;
+    /*padding: 0 40px;*/
 }
 
 .main {

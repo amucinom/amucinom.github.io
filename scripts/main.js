@@ -10,13 +10,10 @@ $(document).ready(function() {
 		}
 
 	});
-
-	// if (/Mobi/.test(navigator.userAgent)) {
-    // 	$('#masthead').removeClass('wrapper');
-    // 	$('#hero').removeClass('wrapper');
-    // 	$('#footer').removeClass('wrapper');
-    // 	$('#card-container').removeClass('wrapper');
-    // 	$('#subpage').removeClass('wrapper');
-	// }
-
 });
+
+function getTagID(tagName) {
+	$('#card-container').children().show();
+	var tagToHide = ('.' + tagName);
+	$('#card-container').children().not(tagToHide).hide();
+}
