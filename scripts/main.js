@@ -13,7 +13,17 @@ $(document).ready(function() {
 });
 
 function getTagID(tagName) {
-	$('#card-container').children().show();
 	var tagToHide = ('.' + tagName);
+	var setToActive = ('#' + tagName.substr(4));
+	$('.tags').children('#showAll').show();
+	$('.tags').children().removeClass('tag-active');
+	$('.tags').children(setToActive).addClass('tag-active');
+	$('#card-container').children().show();
 	$('#card-container').children().not(tagToHide).hide();
+}
+
+function showAll() {
+	$('.tags').children().removeClass('tag-active');
+	$('#card-container').children().show();
+	$('.tags').children('#showAll').hide();
 }

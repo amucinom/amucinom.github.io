@@ -442,6 +442,57 @@ button:focus, a:focus, input[type]:focus {
     border-top: 1px solid rgba(160,160,160,0.2);
 }
 
+.card-img {
+    width: 100%;
+    height: 275px;
+}
+
+#flight-img {
+    background: no-repeat center url('../images/portfolio/flightshift_shot.png');
+    background-size: cover;
+}
+
+#dem-img {
+    background: no-repeat center url('../images/DEM_Capstone-bg.png');
+    background-size: cover;
+}
+#beer-img {
+    background: no-repeat center url('../images/portfolio/beerAPI.png');
+    background-size: cover;
+}
+#weather-img {
+    background: no-repeat center url('../images/portfolio/Weather@1x.png');
+    background-size: cover;
+}
+#gem-img {
+    background: no-repeat center url('../images/portfolio/flatlander.png');
+    background-size: cover;
+}
+#task-img {
+    background: no-repeat center url('../images/portfolio/PresMain@1x.png');
+    background-size: cover;
+}
+#binom-img {
+    background: no-repeat center url('../images/binom.png');
+    background-size: cover;
+}
+#lyr-img {
+    background: no-repeat center url('../images/lyr-bg.png');
+    background-size: cover;
+}
+#sol-img {
+    background: no-repeat center url('../images/sol-bg.png');
+    background-size: cover;
+}
+#dmhs-img {
+    background: no-repeat center url('../images/dmhs.png');
+    background-size: cover;
+}
+#barrett-img {
+    background: no-repeat center url('../images/barrett.png');
+    background-size: cover;
+}
+
 .card-img img {
     display: block;
     border-radius: 2px 2px 0 0;
@@ -561,8 +612,14 @@ button:focus, a:focus, input[type]:focus {
 .tags {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     max-width: 1200px;
-    width: 675px;
+    /*width: 1000px;*/
     margin: 0 auto;
     padding: 1rem 0;
+}
+
+.tag-active {
+    background-color: #458AFF;
+    color: white;
 }
