@@ -25,5 +25,5 @@ function getTagID(tagName) {
 function showAll() {
 	$('.tags').children().removeClass('tag-active');
 	$('#card-container').children().show();
-	$('.tags').children('#showAll').hide();
+	// $('.tags').children('#showAll').hide();
 }

@@ -457,7 +457,7 @@ button:focus, a:focus, input[type]:focus {
     background-size: cover;
 }
 #beer-img {
-    background: no-repeat center url('../images/portfolio/beerAPI.png');
+    background: no-repeat right url('../images/portfolio/JS.png');
     background-size: cover;
 }
 #weather-img {
@@ -465,7 +465,7 @@ button:focus, a:focus, input[type]:focus {
     background-size: cover;
 }
 #gem-img {
-    background: no-repeat center url('../images/portfolio/flatlander.png');
+    background: no-repeat right url('../images/portfolio/JS.png');
     background-size: cover;
 }
 #task-img {
