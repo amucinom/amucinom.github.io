@@ -306,7 +306,7 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .hero {
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-bottom: 2em;
 }
 
@@ -315,8 +315,8 @@ button:focus, a:focus, input[type]:focus {
     margin-left: auto;
     margin-right: auto;
     width: 55%;
-    /*height: 50%;*/
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .arrow {
