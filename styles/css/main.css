@@ -1,7 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** Some components and styles are inspired by Google's Material Design **/
 =======
 >>>>>>> scss
+=======
+<<<<<<< ours
+/** Some components and styles are inspired by Google's Material Design **/
+=======
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
 body,
 html {
   min-height: 100%;
@@ -17,10 +24,18 @@ body {
   height: 100%;
   color: #333;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: #f4f5f6; }
 =======
   background: #f6f6f6; }
 >>>>>>> scss
+=======
+<<<<<<< ours
+  background: #f4f5f6; }
+=======
+  background: #f6f6f6; }
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
 
 * {
   box-sizing: border-box; }
@@ -155,10 +170,18 @@ button:focus, a:focus, input[type]:focus {
   display: inline-block;
   text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: #F6F6F6;
 =======
   background: #f6f6f6;
 >>>>>>> scss
+=======
+<<<<<<< ours
+  background: #F6F6F6;
+=======
+  background: #f6f6f6;
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
   color: #666;
   padding: 0.5rem 2rem;
   border-radius: 2px;
@@ -193,6 +216,10 @@ button:focus, a:focus, input[type]:focus {
 
 .main-title::-moz-selection {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< ours
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
   background-color: #03A9f4; }
 
 .main-title::selection {
@@ -202,7 +229,11 @@ button:focus, a:focus, input[type]:focus {
 
 .main-title::selection {
   background-color: #03A9F4; }
+<<<<<<< HEAD
 >>>>>>> scss
+=======
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
 
 /** Nav **/
 .link {
@@ -223,12 +254,20 @@ button:focus, a:focus, input[type]:focus {
 
 .link:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< ours
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
   color: white;
   /*border-bottom: 2px solid #fff;*/ }
 =======
   color: #fff;
   /*border-bottom: 2px solid $white;*/ }
+<<<<<<< HEAD
 >>>>>>> scss
+=======
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
 
 .nav {
   position: fixed;
@@ -244,10 +283,18 @@ button:focus, a:focus, input[type]:focus {
 .active {
   color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /*border-bottom: 2px solid #fff;*/ }
 =======
   /*border-bottom: 2px solid $white;*/ }
 >>>>>>> scss
+=======
+<<<<<<< ours
+  /*border-bottom: 2px solid #fff;*/ }
+=======
+  /*border-bottom: 2px solid $white;*/ }
+>>>>>>> theirs
+>>>>>>> a049af01f684c3529b54d5daef4d8968e3c897f4
 
 .menu {
   display: -webkit-flex;

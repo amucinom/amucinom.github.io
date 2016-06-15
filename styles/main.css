@@ -559,7 +559,6 @@ button:focus, a:focus, input[type]:focus {
 
 .social-link {
     padding-right: 2rem;
-    transition: all 0.25s;
 }
 
 .social-link:last-child {
@@ -569,10 +568,6 @@ button:focus, a:focus, input[type]:focus {
 .social-link:link, .social-link:visited {
     color: #f1f1f1;
     text-decoration: none;
-}
-
-.social-link:hover {
-    color: #458AFF;
 }
 
 .portfolio-header {
