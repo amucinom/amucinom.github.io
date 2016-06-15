@@ -255,7 +255,7 @@ button:focus, a:focus, input[type]:focus {
     position: fixed;
     width: 100%;
     min-height: 2rem;
-    background-color: #E95D52;
+    background-color: #E15258;
     z-index: 9999;
 }
 
@@ -302,7 +302,7 @@ button:focus, a:focus, input[type]:focus {
 
 .header {
     /*height: 75%;*/
-    background-color: #E95D52;
+    background-color: #E15258;
 }
 
 .hero {
@@ -585,7 +585,7 @@ button:focus, a:focus, input[type]:focus {
 
 .portfolio-hero {
     padding-top: 6rem;
-    background-color: #E95D52;
+    background-color: #E15258;
 }
 
 .portfolio-img {
