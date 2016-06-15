@@ -11,11 +11,10 @@ gulp.task('serve', ['sass'], function() {
     });
 
     gulp.watch("styles/sass/*.scss", ['sass']).on('change', browserSync.reload);
-<<<<<<< HEAD
+
     gulp.watch("styles/*.css").on("change", browserSync.reload);
-=======
+
     // gulp.watch("styles/*.css").on("change", browserSync.reload);
->>>>>>> scss
     gulp.watch("*.html").on('change', browserSync.reload);
     gulp.watch("portfolio/*.html").on('change', browserSync.reload);
     gulp.watch("scripts/*.js").on('change', browserSync.reload);
