@@ -1,4 +1,4 @@
-/** Some components and styles are inspired by Google's Material Design **/
+@import 'color';
 
 body,
 html {
@@ -13,8 +13,8 @@ body {
     width: 100%;
     min-height: 100%;
     height: 100%;
-    color: #333;
-    background: rgb(244, 245, 246);
+    color: $mineshaft;
+    background: $whiteSmoke;
 
 }
 
@@ -30,7 +30,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    color: #444;
+    color: $tuatara;
     font-weight: 400;
 }
 
@@ -157,12 +157,12 @@ button:focus, a:focus, input[type]:focus {
 .card-links a:link,
 .card-links a:visited {
     text-decoration: none;
-    color: #458AFF;
+    color: $bleuDeFrance;
     transition: all 0.25s;
 }
 
 .card-links a:hover {
-    color: #64B5F6;
+    color: $mayaBlue;
 }
 
 .call-btn {
@@ -177,8 +177,8 @@ button:focus, a:focus, input[type]:focus {
 .btn {
     display: inline-block;
     text-decoration: none;
-    background: #F6F6F6;
-    color: #666;
+    background: $whiteSmoke;
+    color: $steel;
     padding: 0.5rem 2rem;
     border-radius: 2px;
     border: 1px solid transparent;
@@ -193,8 +193,8 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .btn-main {
-    color: #fff;
-    background: #1565C0;
+    color: $white;
+    background: $denim;
 }
 
 .btn-tag {
@@ -205,23 +205,23 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .btn:hover {
-    background: #458AFF;
-    color: #fff;
+    background: $bleuDeFrance;
+    color: $white;
 }
 
 
 .main-title {
     font-size: 20px;
     font-weight: 400;
-    color: #fff;
+    color: $white;
 }
 
 .main-title::-moz-selection {
-    background-color: #03A9f4;
+    background-color: $deepSkyBlue;
 }
 
 .main-title::selection {
-    background-color: #03A9f4;
+    background-color: $deepSkyBlue;
 }
 
 /** Nav **/
@@ -244,15 +244,15 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .link:hover {
-    color: rgba(255, 255, 255,1);
-    /*border-bottom: 2px solid #fff;*/
+    color: $white;
+    /*border-bottom: 2px solid $white;*/
 }
 
 .nav {
     position: fixed;
     width: 100%;
     min-height: 2rem;
-    background-color: #E95D52;
+    background-color: $flamingo;
     z-index: 9999;
 }
 
@@ -262,8 +262,8 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .active {
-    color: #fff;
-    /*border-bottom: 2px solid #fff;*/
+    color: $white;
+    /*border-bottom: 2px solid $white;*/
 }
 
 .menu {
@@ -299,7 +299,7 @@ button:focus, a:focus, input[type]:focus {
 
 .header {
     height: 100%;
-    background-color: #E95D52;
+    background-color: $flamingo;
 }
 
 .hero {
@@ -328,7 +328,7 @@ button:focus, a:focus, input[type]:focus {
 .intro h1 {
     font-size: 2rem;
     font-weight: 300;
-    color: #fff;
+    color: $white;
     text-align: center;
     line-height: 1.75;
 }
@@ -354,7 +354,7 @@ button:focus, a:focus, input[type]:focus {
     display: block;
     min-width: calc(100%/4 - 1.5rem);
     margin: 0.75rem;
-    background: #fff;
+    background: $white;
     border-radius: 2px;
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
@@ -402,19 +402,19 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .page-card .btn .btn:link, .btn:visited {
-    color: #fff;
+    color: $white;
 }
 
 .page-bg {
     width: 100%;
     height: 35%;
-    background-color: #E95D52;
+    background-color: $flamingo;
 }
 
 .portfolio-bg {
     width: 100%;
     height: 20%;
-    background-color: #E95D52;
+    background-color: $flamingo;
 }
 
 .card-text {
@@ -465,7 +465,7 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .footer .email-link {
-    color: #fff;
+    color: $white;
     text-decoration: none;
     padding-left: 0.5rem;
     height: 0;
@@ -530,7 +530,7 @@ button:focus, a:focus, input[type]:focus {
 
 .portfolio-hero {
     padding-top: 6rem;
-    background-color: #E95D52;
+    background-color: $flamingo;
 }
 
 .portfolio-img {
