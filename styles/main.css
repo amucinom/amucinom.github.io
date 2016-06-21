@@ -158,6 +158,7 @@ button:focus, a:focus, input[type]:focus {
 .card-links a:link,
 .card-links a:visited {
     text-decoration: none;
+    font-size: 14px;
     color: #458AFF;
     padding: 0.5rem 1rem;
     border-radius: 2px;
