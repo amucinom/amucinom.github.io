@@ -159,8 +159,8 @@ button:focus, a:focus, input[type]:focus {
 .card-links a:visited {
     text-decoration: none;
     font-size: 14px;
-    /*color: #458AFF;*/
-    color: #E32D46;
+    color: #458AFF;
+    /*color: #E32D46;*/
     padding: 0.5rem 1rem;
     border-radius: 2px;
     transition: all 0.25s;
@@ -494,6 +494,10 @@ button:focus, a:focus, input[type]:focus {
     background: no-repeat center url('../images/barrett.png');
     background-size: cover;
 }
+#daily_01-img {
+    background: no-repeat center url('../images/portfolio/Day01.png');
+    background-size: cover;
+}
 
 .card-img img {
     display: block;
@@ -563,8 +567,12 @@ button:focus, a:focus, input[type]:focus {
     padding-right: 2rem;
 }
 
+.social-link i {
+    transition: color 0.25s;
+}
+
 .social-link i:hover {
-    color: #E32D46;
+    color: #458AFF;
 }
 
 .social-link:last-child {
