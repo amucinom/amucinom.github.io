@@ -250,7 +250,6 @@ button:focus, a:focus, input[type]:focus {
 
 .link:hover {
     color: rgba(255, 255, 255,1);
-    background-color: #E53935;
 }
 
 .nav {
@@ -496,6 +495,10 @@ button:focus, a:focus, input[type]:focus {
 }
 #daily_01-img {
     background: no-repeat center url('../images/portfolio/Day01.png');
+    background-size: cover;
+}
+#daily_02-img {
+    background: no-repeat center url('../images/portfolio/Day02.png');
     background-size: cover;
 }
 
