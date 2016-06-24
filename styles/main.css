@@ -501,6 +501,10 @@ button:focus, a:focus, input[type]:focus {
     background: no-repeat center url('../images/portfolio/Day02.png');
     background-size: cover;
 }
+#daily_03-img {
+    background: no-repeat center url('../images/portfolio/Day03.png');
+    background-size: cover;
+}
 
 .card-img img {
     display: block;
