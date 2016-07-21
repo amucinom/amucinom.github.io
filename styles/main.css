@@ -59,8 +59,8 @@ h6 {
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: 18px;
+    line-height: 2rem;
     text-transform: none;
     text-decoration: none;
     font-weight: 400;
@@ -101,7 +101,7 @@ button:focus, a:focus, input[type]:focus {
     margin-right: auto;
     padding-top: 6.5rem;
     line-height: 1.75;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .main-subpage img {
@@ -121,7 +121,7 @@ button:focus, a:focus, input[type]:focus {
 }
 
 .main-subpage .width_half {
-    text-align: center;
+    /*text-align: center;*/
     vertical-align: top;
 }
 
@@ -188,8 +188,8 @@ button:focus, a:focus, input[type]:focus {
     padding: 0.5rem 2rem;
     border-radius: 2px;
     border: 1px solid transparent;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     line-height: 1.5;
     text-align: center;
     white-space: nowrap;
@@ -403,7 +403,14 @@ button:focus, a:focus, input[type]:focus {
 
 .portfolio-card {
     margin-top: -25%;
+    margin-right: 0;
+    margin-left: 0;
     padding: 4rem 4rem;
+}
+
+.portfolio-subpage h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .page-card .btn .btn:link, .btn:visited {
@@ -632,9 +639,11 @@ button:focus, a:focus, input[type]:focus {
 .portfolio-subimg {
     display: block;
     width: 85%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
 }
 
 
@@ -654,4 +663,8 @@ button:focus, a:focus, input[type]:focus {
 .tag-active {
     background-color: #458AFF;
     color: white;
+}
+
+.resume {
+    text-align: center;
 }
