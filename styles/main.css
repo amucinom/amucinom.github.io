@@ -513,6 +513,10 @@ button:focus, a:focus, input[type]:focus {
     background: no-repeat center url('../images/portfolio/Day05@2x.png');
     background-size: cover;
 }
+#authorea-img {
+    background: no-repeat center url('../images/portfolio/authorea_shot.png');
+    background-size: cover;
+}
 
 .card-img img {
     display: block;
