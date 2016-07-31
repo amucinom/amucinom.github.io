@@ -520,6 +520,14 @@ button:focus, a:focus, input[type]:focus {
     background: no-repeat center url('../images/portfolio/Day05@2x.png');
     background-size: cover;
 }
+#daily_07-img {
+    background: no-repeat center url('../images/portfolio/day07_shot.png');
+    background-size: cover;
+}
+#daily_08-img {
+    background: no-repeat center url('../images/portfolio/day08.png');
+    background-size: cover;
+}
 #authorea-img {
     background: no-repeat center url('../images/portfolio/authorea_shot.png');
     background-size: cover;
