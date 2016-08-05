@@ -68,6 +68,11 @@ p {
     margin: 0.5rem 0;
 }
 
+main a, main a:hover, main a:visited {
+    text-decoration: none;
+    color: #458AFF;
+}
+
 button:focus, a:focus, input[type]:focus {
     outline: 0;
 }
