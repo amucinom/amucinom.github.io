@@ -1,3 +1,4 @@
+/** Some components and styles are inspired by Google's Material Design **/
 body,
 html {
   min-height: 100%;
@@ -12,7 +13,7 @@ body {
   min-height: 100%;
   height: 100%;
   color: #333;
-  background: #f6f6f6; }
+  background: #f4f5f6; }
 
 * {
   box-sizing: border-box; }
@@ -47,13 +48,17 @@ h6 {
   font-size: 1.125rem; }
 
 p {
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: 18px;
+  line-height: 2rem;
   text-transform: none;
   text-decoration: none;
   font-weight: 400;
   font-style: normal;
   margin: 0.5rem 0; }
+
+main a, main a:hover, main a:visited {
+  text-decoration: none;
+  color: #458AFF; }
 
 button:focus, a:focus, input[type]:focus {
   outline: 0; }
@@ -65,8 +70,9 @@ button:focus, a:focus, input[type]:focus {
   margin-left: auto; }
 
 .row {
+  width: 100%;
   height: 64px;
-  padding: 0 40px; }
+  /*padding: 0 40px;*/ }
 
 .main {
   -webkit-box-flex: 1;
@@ -82,7 +88,7 @@ button:focus, a:focus, input[type]:focus {
   margin-right: auto;
   padding-top: 6.5rem;
   line-height: 1.75;
-  text-align: center; }
+  /*text-align: center;*/ }
 
 .main-subpage img {
   display: block;
@@ -99,7 +105,7 @@ button:focus, a:focus, input[type]:focus {
   padding-bottom: 2rem; }
 
 .main-subpage .width_half {
-  text-align: center;
+  /*text-align: center;*/
   vertical-align: top; }
 
 .main-subpage section h1 {
@@ -130,11 +136,16 @@ button:focus, a:focus, input[type]:focus {
 .card-links a:link,
 .card-links a:visited {
   text-decoration: none;
+  font-size: 14px;
   color: #458AFF;
+  /*color: #E32D46;*/
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
   transition: all 0.25s; }
 
 .card-links a:hover {
-  color: #64B5F6; }
+  /*color: #64B5F6;*/
+  background-color: #E7E7E7; }
 
 .call-btn {
   text-align: center;
@@ -146,13 +157,13 @@ button:focus, a:focus, input[type]:focus {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background: #f6f6f6;
+  background: #F6F6F6;
   color: #666;
   padding: 0.5rem 2rem;
   border-radius: 2px;
   border: 1px solid transparent;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 1.5;
   text-align: center;
   white-space: nowrap;
@@ -180,10 +191,10 @@ button:focus, a:focus, input[type]:focus {
   color: #fff; }
 
 .main-title::-moz-selection {
-  background-color: #03A9F4; }
+  background-color: #03A9f4; }
 
 .main-title::selection {
-  background-color: #03A9F4; }
+  background-color: #03A9f4; }
 
 /** Nav **/
 .link {
@@ -191,8 +202,7 @@ button:focus, a:focus, input[type]:focus {
   font-weight: 400;
   line-height: 1.5;
   display: inline-block;
-  /*padding-left: 2.5rem;*/
-  padding: 20px 12px 21px;
+  padding: 20px 12px 20px;
   height: 100%;
   margin: 0;
   text-align: center;
@@ -200,17 +210,16 @@ button:focus, a:focus, input[type]:focus {
   text-decoration: none;
   border: none;
   color: rgba(255, 255, 255, 0.6);
-  transition: color 0.25s; }
+  transition: all 0.5s; }
 
 .link:hover {
-  color: #fff;
-  /*border-bottom: 2px solid $white;*/ }
+  color: white; }
 
 .nav {
   position: fixed;
   width: 100%;
   min-height: 2rem;
-  background-color: #E95D52;
+  background-color: #E15258;
   z-index: 9999; }
 
 .nav a:link,
@@ -219,7 +228,7 @@ button:focus, a:focus, input[type]:focus {
 
 .active {
   color: #fff;
-  /*border-bottom: 2px solid $white;*/ }
+  /*border-bottom: 2px solid #fff;*/ }
 
 .menu {
   display: -webkit-flex;
@@ -249,22 +258,23 @@ button:focus, a:focus, input[type]:focus {
 
 /** Hero **/
 .header {
-  height: 100%;
-  background-color: #E95D52; }
+  /*height: 75%;*/
+  background-color: #E15258; }
 
 .hero {
   padding-top: 8rem;
-  padding-bottom: 4em; }
+  padding-bottom: 2em; }
 
 .hero-illustration {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 55%;
+  /*height: 50%;*/
   padding: 4rem 0; }
 
 .arrow {
+  display: none;
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -296,31 +306,28 @@ button:focus, a:focus, input[type]:focus {
 
 .card {
   display: block;
-  min-width: calc(100%/4 - 1.5rem);
-  margin: 0.75rem;
+  min-width: calc(100%/4 - 2rem);
+  margin: 1rem;
   background: #fff;
   border-radius: 2px;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12); }
 
-.card:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
 .width_third {
-  width: calc(100%/3 - 1.5rem); }
+  width: calc(100%/3 - 2rem); }
 
 .width_two-thirds {
-  width: calc(100%/1.5 - 1.5rem); }
+  width: calc(100%/1.5 - 2rem); }
 
 .width_quarter {
-  width: calc(100%/4 - 1.5rem); }
+  width: calc(100%/4 - 2rem); }
 
 .width_half {
-  width: calc(100%/2 - 1.5rem); }
+  width: calc(100%/2 - 2rem); }
 
 .width_full {
-  width: calc(100% - 1.5rem); }
+  width: calc(100% - 2rem); }
 
 .true-card {
   max-width: 675px;
@@ -333,7 +340,13 @@ button:focus, a:focus, input[type]:focus {
 
 .portfolio-card {
   margin-top: -25%;
+  margin-right: 0;
+  margin-left: 0;
   padding: 4rem 4rem; }
+
+.portfolio-subpage h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem; }
 
 .page-card .btn .btn:link, .btn:visited {
   color: #fff; }
@@ -341,12 +354,12 @@ button:focus, a:focus, input[type]:focus {
 .page-bg {
   width: 100%;
   height: 35%;
-  background-color: #E95D52; }
+  background-color: #E15258; }
 
 .portfolio-bg {
   width: 100%;
   height: 20%;
-  background-color: #E95D52; }
+  background-color: #E15258; }
 
 .card-text {
   line-height: 1.5;
@@ -364,6 +377,86 @@ button:focus, a:focus, input[type]:focus {
   margin-left: 0;
   font-size: 1rem;
   border-top: 1px solid rgba(160, 160, 160, 0.2); }
+
+.card-img {
+  width: 100%;
+  height: 400px; }
+
+#flight-img {
+  background: no-repeat center url("../images/portfolio/flightshift_shot.png");
+  background-size: cover; }
+
+#dem-img {
+  background: no-repeat center url("../images/DEM_Capstone-bg.png");
+  background-size: cover; }
+
+#beer-img {
+  background: no-repeat right url("../images/portfolio/JS.png");
+  background-size: cover; }
+
+#weather-img {
+  background: no-repeat center url("../images/portfolio/Weather@1x.png");
+  background-size: cover; }
+
+#gem-img {
+  background: no-repeat right url("../images/portfolio/JS.png");
+  background-size: cover; }
+
+#task-img {
+  background: no-repeat center url("../images/portfolio/Pres@2x.png");
+  background-size: cover; }
+
+#binom-img {
+  background: no-repeat center url("../images/binom.png");
+  background-size: cover; }
+
+#lyr-img {
+  background: no-repeat center url("../images/lyr-bg.png");
+  background-size: cover; }
+
+#sol-img {
+  background: no-repeat center url("../images/sol-bg.png");
+  background-size: cover; }
+
+#dmhs-img {
+  background: no-repeat center url("../images/dmhs.png");
+  background-size: cover; }
+
+#barrett-img {
+  background: no-repeat center url("../images/barrett.png");
+  background-size: cover; }
+
+#daily_01-img {
+  background: no-repeat center url("../images/portfolio/Day01.png");
+  background-size: cover; }
+
+#daily_02-img {
+  background: no-repeat center url("../images/portfolio/Day02.png");
+  background-size: cover; }
+
+#daily_03-img {
+  background: no-repeat center url("../images/portfolio/Day03.png");
+  background-size: cover; }
+
+#daily_04-img {
+  background: no-repeat center url("../images/portfolio/Day04.png");
+  background-size: cover; }
+
+#daily_05-img {
+  background: no-repeat center url("../images/portfolio/Day05@2x.png");
+  background-size: cover; }
+
+#daily_07-img {
+  background: no-repeat center url("../images/portfolio/day07_shot.png");
+  background-size: cover; }
+
+#daily_08-img {
+  background: no-repeat center url("../images/portfolio/day08.png");
+  background-size: cover; }
+
+#authorea-img {
+  background: no-repeat center url("../images/portfolio/authorea_shot.png");
+  background-size: cover; }
 
 .card-img img {
   display: block;
@@ -422,6 +515,12 @@ button:focus, a:focus, input[type]:focus {
 .social-link {
   padding-right: 2rem; }
 
+.social-link i {
+  transition: color 0.25s; }
+
+.social-link i:hover {
+  color: #458AFF; }
+
 .social-link:last-child {
   padding: 0; }
 
@@ -442,7 +541,7 @@ button:focus, a:focus, input[type]:focus {
 
 .portfolio-hero {
   padding-top: 6rem;
-  background-color: #E95D52; }
+  background-color: #E15258; }
 
 .portfolio-img {
   display: block;
@@ -454,9 +553,11 @@ button:focus, a:focus, input[type]:focus {
 .portfolio-subimg {
   display: block;
   width: 85%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 0; }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16); }
 
 .text-center {
   text-align: center; }
@@ -464,7 +565,14 @@ button:focus, a:focus, input[type]:focus {
 .tags {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   max-width: 1200px;
-  width: 675px;
   margin: 0 auto;
   padding: 1rem 0; }
+
+.tag-active {
+  background-color: #458AFF;
+  color: white; }
+
+.resume {
+  text-align: center; }
